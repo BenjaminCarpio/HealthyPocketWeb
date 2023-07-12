@@ -23,7 +23,7 @@ function App() {
     <div>
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={ <Home/> }></Route>
+        <Route path="https://benjamincarpio.github.io/HealthyPocketWeb/" element={ <Home/> }></Route>
         <Route path="/Login" element={ <Login/> }></Route>
         <Route path="/Home" element={ <Login/> }></Route>
         <Route path="/  " element={ <UserPage/> }></Route>
