@@ -15,7 +15,7 @@ const SearchComponent = (props) => {
     const [citas,setcitas]=useState([]);
     const [searche,setSearch]=useState([]);
 
-    const API_URL = "http://localhost:25060/api/cita";
+    const API_URL = "http://157.230.66.36:25060/api/cita/";
 
     const showData = async()=>{
         const response = await fetch(API_URL)

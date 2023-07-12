@@ -34,7 +34,7 @@ const ExamRegistration = () => {
   const CitasUsuario = localStorage.getItem("code_user");
 
   //-------------URL de la API-------------------------
-  const API_URL = "http://localhost:25060/api/cita/";
+  const API_URL = "http://157.230.66.36:25060/api/cita/";
 
   const [exam, setExam] = useState([]);
 
@@ -171,7 +171,7 @@ const ExamRegistration = () => {
   const showData = async (e) => {
     //if (e && e.preventDefault) { e.preventDefault(); }
     const response = await fetch(
-      `http://localhost:25060/api/cita/${CitasUsuario}`
+      `http://157.230.66.36:25060/api/cita/${CitasUsuario}`
     );
     const data = await response.json();
     console.log(data);

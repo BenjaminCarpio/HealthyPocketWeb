@@ -50,7 +50,7 @@ const ExamenDetalle = () => {
 
   const VariableCodigoExamen = localStorage.getItem("code_exam");
 
-  const API_URL = `http://localhost:25060/api/detalle/${VariableCodigoExamen}`;
+  const API_URL = `http://157.230.66.36:25060/api/detalle/${VariableCodigoExamen}`;
 
   const getDetails = async () => {
     const respuesta = await axios.get(API_URL);
@@ -98,7 +98,7 @@ const ExamenDetalle = () => {
   const enviarSolicitu2 = async (metodo, parametros) => {
     await axios({
       method: metodo,
-      url: `http://localhost:25060/api/detalle/${parametros.code_det}`,
+      url: `http://157.230.66.36:25060/api/detalle/${parametros.code_det}`,
       data: parametros,
     })
       .then(function (respuesta) {

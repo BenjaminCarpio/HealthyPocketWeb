@@ -8,7 +8,7 @@ const UserProfile = (props) => {
   const [user, setUser] = useState({});
   useEffect(() => {
     const fetchData = async () => {
-      const apiUrl = `http://localhost:25060/api/users/${perfilUsuario}`;
+      const apiUrl = `http://157.230.66.36:25060/api/users/${perfilUsuario}`;
 
       try {
         const response = await axios.get(apiUrl);
