@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HealthyPocketWeb/static/css/main.1facb12a.css",
+    "main.js": "/HealthyPocketWeb/static/js/main.01dd6037.js",
+    "static/js/787.08fa795f.chunk.js": "/HealthyPocketWeb/static/js/787.08fa795f.chunk.js",
+    "static/media/logoNav.png": "/HealthyPocketWeb/static/media/logoNav.c9858ccfe8973cfffda1.png",
+    "index.html": "/HealthyPocketWeb/index.html",
+    "main.1facb12a.css.map": "/HealthyPocketWeb/static/css/main.1facb12a.css.map",
+    "main.01dd6037.js.map": "/HealthyPocketWeb/static/js/main.01dd6037.js.map",
+    "787.08fa795f.chunk.js.map": "/HealthyPocketWeb/static/js/787.08fa795f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1facb12a.css",
+    "static/js/main.01dd6037.js"
+  ]
+}
