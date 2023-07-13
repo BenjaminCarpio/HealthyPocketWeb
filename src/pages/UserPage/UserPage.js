@@ -18,7 +18,7 @@ import {
 
 const UserPage = (props) => {
   const [basicActive, setBasicActive] = useState("settings2");
-  const handleBasicClick = (value: string) => {
+  const handleBasicClick = (value) => {
     if (value === basicActive) return;
 
     setBasicActive(value);

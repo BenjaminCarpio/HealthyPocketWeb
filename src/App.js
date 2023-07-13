@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './pages/Login/Login';
 import Home from "./pages/HomePage/HomePage";
-import UserPage from "./pages/UserPage/UserPage";
+import UserPage from './pages/UserPage/UserPage';
 import Citas from './pages/CitaPage/CitaPage';
 import SearchComponent from "./Component/SearchComponent";
 import Prueba from "./pages/Prueba2/prueba";
@@ -26,7 +26,7 @@ function App() {
         <Route path="https://benjamincarpio.github.io/HealthyPocketWeb/" element={ <Home/> }></Route>
         <Route path="/Login" element={ <Login/> }></Route>
         <Route path="/Home" element={ <Login/> }></Route>
-        <Route path="/UserPage  " element={ <UserPage/> }></Route>
+        <Route path="/UserPage" element={ <UserPage/> }></Route>
         <Route path="/Citas" element={ <Citas/> }></Route>
         <Route path="/Examenes" element={ <VisualizarExamenes/> }></Route>
         <Route path="/Examenes/Registro" element={ <RegistrarExamenes/> }></Route>
