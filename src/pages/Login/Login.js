@@ -60,6 +60,7 @@ const Login = (props) => {
     //e.preventDefault();
     try {
       const response = await fetch(API_URL, {
+        mode: 'no-cors',
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -98,6 +99,7 @@ const Login = (props) => {
     //e.preventDefault();
     try {
       const response = await fetch(API_URL2, {
+        mode: 'no-cors',
         method: "POST",
         headers: {
           "Content-Type": "application/json",
