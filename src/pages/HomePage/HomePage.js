@@ -25,7 +25,7 @@ import {
 
 const Home = (props) => {
   const [fillActive, setFillActive] = useState("tab1");
-  const handleFillClick = (value: string) => {
+  const handleFillClick = (value) => {
     if (value === fillActive) {
       return;
     }
