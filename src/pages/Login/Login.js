@@ -90,7 +90,7 @@ const Login = (props) => {
     }
   }; //Eveneto que se activa si todo sale bien en el inicio de sesion
   if (isAuthorized) {
-    return <Navigate to="/UserPage" />;
+    return <Navigate to="/UserProfile" />;
   }
 
   //Eventos para El REGISTRO DE USUARIOS en la aplicacion(eventos similares al de inicio de sesion)
