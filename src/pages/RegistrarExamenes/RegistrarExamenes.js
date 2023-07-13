@@ -241,7 +241,7 @@ const RegistrarExamenes = (props) => {
                         <MDBBtn
                           className="btn-back"
                           onClick={() => InfoModal(examen.id, examen.code_exam)}
-                          href="http://localhost:3000/Examenes/Registro/Detalle"
+                          href="https://urchin-app-oexqr.ondigitalocean.app/Examenes/Registro/Detalle"
                         >
                           Detalles del Examen
                         </MDBBtn>
@@ -250,7 +250,7 @@ const RegistrarExamenes = (props) => {
                         <MDBBtn
                           className="btn btn-warning"
                           onClick={() => GenerarDetalleExamen(examen.code_exam)}
-                          href="http://localhost:3000/Examenes/Registro/Detalle"
+                          href="https://urchin-app-oexqr.ondigitalocean.app/Examenes/Registro/Detalle"
                         >
                           Generar Detalle Examen
                         </MDBBtn>

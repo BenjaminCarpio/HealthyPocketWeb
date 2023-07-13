@@ -160,7 +160,7 @@ const ExamenDetalle = () => {
                 <MDBCardBody className="">
                   <MDBBtn
                     className="btn btn-back mb-2"
-                    href="http://localhost:3000/Examenes/Registro/"
+                    href="https://urchin-app-oexqr.ondigitalocean.app/Examenes/Registro/"
                   >
                     Regresar a Examenes
                   </MDBBtn>

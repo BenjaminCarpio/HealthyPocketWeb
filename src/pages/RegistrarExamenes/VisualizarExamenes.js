@@ -126,7 +126,7 @@ const VisualizarExamenes = (props) => {
                               citas.fecha
                             )
                           }
-                          href="/Examenes/Registro"
+                          href="https://urchin-app-oexqr.ondigitalocean.app/Examenes/Registro"
                         >
                           Examenes
                         </MDBBtn>
