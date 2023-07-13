@@ -8,7 +8,7 @@ const UserProfile = (props) => {
   const [user, setUser] = useState({});
   useEffect(() => {
     const fetchData = async () => {
-      const apiUrl = `http://146.190.186.43:25060/api/users/${perfilUsuario}`;
+      const apiUrl = `https://healthypocket.live/api/users/${perfilUsuario}`;
 
       try {
         const response = await axios.get(apiUrl);
@@ -54,28 +54,28 @@ const UserProfile = (props) => {
 
             <br></br>
             <div className="card-user-p">
-              <h3>CORREO ELECTRONICO 📫</h3>
+              <h3>CORREO ELECTRONICO</h3>
               <p>{user.correo}</p>
             </div>
             <br></br>
 
             <br></br>
             <div className="card-user-p">
-              <h3>HOSPITAL O CLINICA 🏥</h3>
+              <h3>HOSPITAL O CLINICA</h3>
               <p>Hospital nombre</p>
             </div>
             <br></br>
 
             <br></br>
             <div className="card-user-p">
-              <h3>DOCTOR 🩺</h3>
+              <h3>DOCTOR</h3>
               <p> Doctor nombre</p>
             </div>
             <br></br>
 
             <br></br>
             <div className="card-user-p">
-              <h3>TOTAL GASTOS 💸💲💰</h3>
+              <h3>TOTAL GASTOS</h3>
               <p>$Dineros</p>
             </div>
             <br></br>

@@ -39,9 +39,9 @@ import {
 const RegistrarExamenes = (props) => {
   const Examenes_porCodigo = localStorage.getItem("code_cita2");
 
-  const API_URL = "http://146.190.186.43:25060/api/examen/";
-  const API_URL2 = `http://146.190.186.43:25060/api/examen/${Examenes_porCodigo}`;
-  const API_URL3 = `http://146.190.186.43:25060/api/detalle`;
+  const API_URL = "https://healthypocket.live/api/examen/";
+  const API_URL2 = `https://healthypocket.live/api/examen/${Examenes_porCodigo}`;
+  const API_URL3 = `https://healthypocket.live/api/detalle`;
 
   const [Examenes, setExamenes] = useState([""]);
   const [code_exam, setcode_exam] = useState("");
@@ -145,7 +145,7 @@ const RegistrarExamenes = (props) => {
   const enviarSolicitu3 = async (metodo, parametros) => {
     await axios({
       method: metodo,
-      url: `http://146.190.186.43:25060/api/examen/${parametros.code_exam}`,
+      url: `https://healthypocket.live/api/examen/${parametros.code_exam}`,
       data: parametros,
     })
       .then(function (respuesta) {

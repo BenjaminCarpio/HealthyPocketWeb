@@ -36,7 +36,7 @@ const RespaldoCitas = (props) => {
   const CitasUsuario = localStorage.getItem("code_user");
 
   //-------------URL de la API-------------------------
-  const API_URL = "http://146.190.186.43:25060/api/cita/";
+  const API_URL = "https://healthypocket.live/api/cita/";
 
   //-------------Variables Importantes-------------------------
   const [citas, setcitas] = useState([]);
@@ -90,7 +90,7 @@ const RespaldoCitas = (props) => {
   const showData = async (e) => {
     //if (e && e.preventDefault) { e.preventDefault(); }
     const response = await fetch(
-      `http://146.190.186.43:25060/api/cita/${CitasUsuario}`
+      `https://healthypocket.live/api/cita/${CitasUsuario}`
     );
     const data = await response.json();
     console.log(data);

@@ -33,8 +33,8 @@ import {
 
 const Citas = (props) => {
   const CitasUsuario = localStorage.getItem("code_user");
-  const API_URL = "http://146.190.186.43:25060/api/cita/";
-  const API_URL2 = `http://146.190.186.43:25060/api/cita/${CitasUsuario}`;
+  const API_URL = "https://healthypocket.live/api/cita/";
+  const API_URL2 = `https://healthypocket.live/api/cita/${CitasUsuario}`;
   //const API_URL3 = `http://localhost:25060/api/cita/${CitasUsuario}`;
 
   const [cita, setcitas] = useState([]);
@@ -150,7 +150,7 @@ const Citas = (props) => {
   const enviarSolicitu2 = async (metodo, parametros) => {
     await axios({
       method: metodo,
-      url: `http://146.190.186.43:25060/api/cita/${parametros.code_cita}`,
+      url: `https://healthypocket.live/api/cita/${parametros.code_cita}`,
       data: parametros,
     })
       .then(function (respuesta) {

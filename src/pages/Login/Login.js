@@ -42,9 +42,9 @@ const Login = (props) => {
   const [okRegisterAlert, setokRegisterAlert] = useState(false);
 
   //Variable que consume la API
-  const API_URL = "http://146.190.186.43:25060/api/Login/";
+  const API_URL = "https://healthypocket.live/api/Login/";
 
-  const API_URL2 = "http://146.190.186.43:25060/api/Signup/";
+  const API_URL2 = "https://healthypocket.live/api/Signup/";
 
   //Estos son Los eventos con los que se cambia de iniciar sesion a Registrarse en la misma pagina
   const handleJustifyClick = (value) => {

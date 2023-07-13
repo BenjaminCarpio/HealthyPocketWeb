@@ -33,9 +33,9 @@ import {
 
 const Medicamentos = () => {
   const codigo_recta = "1e925aaa-6923-4216-a917-d78a39150475";
-  const API_URL2 = `http://146.190.186.43:25060/api/medicamento/${codigo_recta}`;
+  const API_URL2 = `https://healthypocket.live/api/medicamento/${codigo_recta}`;
 
-  const API_URL = "http://146.190.186.43:25060/api/medicamento";
+  const API_URL = "https://healthypocket.live/api/medicamento";
 
   const [medicamentos, setmedicamentos] = useState([]);
   const [cita, setmedicamentos2] = useState([]);
@@ -143,7 +143,7 @@ const Medicamentos = () => {
   const enviarSolicitu2 = async (metodo, parametros) => {
     await axios({
       method: metodo,
-      url: `http://146.190.186.43:25060/api/medicamento/${code_medca}`,
+      url: `https://healthypocket.live/api/medicamento/${code_medca}`,
       data: parametros,
     })
       .then(function (respuesta) {

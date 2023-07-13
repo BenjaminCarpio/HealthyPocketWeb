@@ -33,7 +33,7 @@ import { Navigate } from "react-router-dom";
 
 const VisualizarExamenes = (props) => {
   const CitasUsuario = localStorage.getItem("code_user");
-  const API_URL2 = `http://146.190.186.43:25060/api/cita/${CitasUsuario}`;
+  const API_URL2 = `https://healthypocket.live/api/cita/${CitasUsuario}`;
 
   const [cita, setcitas] = useState([]);
 
